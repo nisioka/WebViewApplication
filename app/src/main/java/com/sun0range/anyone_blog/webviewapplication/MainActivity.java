@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = (WebView)findViewById(R.id.webView1);
         webView.clearCache(true);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://kurima.sakura.ne.jp/droidjump/", null);
+        webView.loadUrl("https://www.google.co.jp/", null);
     }
 }
